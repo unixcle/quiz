@@ -1,9 +1,9 @@
-function Finished({points,maxPoint}:any){
-    const percentage = points / maxPoint * 100
+function Finished({points,maxPoints}:any){
+    const percentage = points / maxPoints * 100
     return(
         <>
             <p className="result">
-                you scored <strong>{points}</strong> out of {maxPoint}({Math.ceil(percentage)}%)
+                you scored <strong>{points}</strong> out of {maxPoints} ({Math.ceil(percentage)}%)
             </p>
         </>
     )
